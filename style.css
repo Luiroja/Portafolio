@@ -163,7 +163,7 @@ h2 {
     
 }
 .card-perfil img {
-    
+    width: 300px; 
     margin: 0 auto;
     border: 2px solid rgb(39, 102, 120);
     border-radius: 50%;
@@ -190,7 +190,6 @@ h2 {
 
 .principal {
     display:grid;
-    margin:20px;
 }
 
 .proyectos-web {
@@ -305,7 +304,12 @@ p {
         width: 100px;
     }
     .resumen {
-        font-size:16px;
+        border-radius: 5px;
+        border: 1px solid rgb(39, 102, 120);
+        padding:20px;
+        background-color:rgba(22, 136, 167, 0.384);
+        font-size:18px;
+        color: black;
     }
     .contenedor1 {
         display: block;
@@ -315,5 +319,72 @@ p {
     .contenedor1 ul li {
         text-align: center;
     }
+    /* CSS RESPONSIVO PARA EL PERFIL PROFESIONAL */
+
+    .card-perfil {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        column-gap: 20px;
+        align-items: flex-start;
+        width: 80vw;
+        height: 60%;
+    }
     
+    .cv {
+        display: grid;
+        width: 80vw;
+    }
+
+    .universidad, .postgrado, .certificaciones, .cursos {
+        width: 80vw;
+    }
+    .card-perfil img {
+        width: 150px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .card-perfil h2 {
+
+        margin-bottom:20px;
+        font-size: 24px;
+    }
+    /* CSS RESPONSIVO PARA PROYECTOS WEB */
+    .proyectos-web {
+        display: grid;
+        width: 40vw;
+    }
+
+    .principal h2  {
+        width: 80vw;
+        margin: 0 auto;
+        margin-bottom: 20px ! important;
+    }
+    .proyecto {
+        display: grid;
+        justify-content: center;
+        justify-self: center;
+        width: 80vw;
+    }
+    /* CSS RESPONSIVO PARA REDES SOCIALES */
+    .social-networks {
+    display: block;
+    margin-top: 20px !important;
+    margin: 0 auto;
+    width : 80vw;
+    }
+    .iconos {
+        display: block;
+        
+    }
+    .iconos h2 {
+        margin: 0 auto;
+    }
+    .redes-sociales a img{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding:20px;
+    }
 }
