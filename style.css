@@ -1,0 +1,319 @@
+/* CSS APLICADO AL MENÚ PRINCIPAL */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5 em;
+}
+
+
+/* CSS PARA EL HEAD */
+header {
+    height: 60px;
+    background-color:rgb(39, 102, 120);
+    display: flex;
+    padding: 0 20px;
+    
+}
+.menu-toggle {
+    display: none;
+    color: rgb(211, 224, 234);
+    margin-left: auto;
+    line-height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.logo a {
+    color: rgb(211, 224, 234);
+    text-decoration: none;
+    font-size: 20px;
+    line-height:60px;
+}
+#menu {
+    margin-left: auto;
+}
+#menu ul li {
+    display: inline-block;
+}
+#menu ul li a {
+    display: inline-block;
+    position: relative;
+    color  : rgb(211, 224, 234);
+    text-decoration: none;
+    line-height: 30px;
+    padding: 0 8px;
+    transition: 3s;
+}
+.head-header {
+    padding: 20px;
+    background-image: url(/img/pexels-negative-space-160107.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.foto-yo {
+    display: flex;
+    justify-content: center;
+}
+.foto-yo img {
+    width: 150px;
+}
+
+.show {
+    height: 180px !important;
+}
+
+/* CSS PARA EL HEAD HEADER */
+
+
+h1 {
+    text-shadow: cornsilk;
+    color: rgb(211, 224, 234);
+    text-align: center;
+    font-size: 42px;
+    font-family: cursive;  
+   
+}
+
+.contenedor1 {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgb(39, 102, 120);
+    position: relative;
+    overflow: hidden;
+  
+}
+
+.contenedor1 ul {
+    text-align: center;
+    list-style: none;
+    animation: cambiar 14s infinite;
+}
+
+@keyframes cambiar {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+
+    15% {margin-top: -24px;}
+    25% {margin-top:-24px;}
+
+    30% {margin-top: -48px;}
+    40% {margin-top: -48px;}
+
+    45% {margin-top: -72px;}
+    55% {margin-top: -72px;}
+
+    60% {margin-top: -48px;}
+    70% {margin-top: -48px;}
+
+    75% {margin-top: -24px;}
+    85% {margin-top: -24px;}
+
+    90% {margin-top: 0px;}
+    100% {margin-top: 0px;}
+}
+
+
+h2 {
+    background-color:rgba(22, 136, 167, 0.384);
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 20px 10px 20px;
+    color: rgb(39, 102, 120);
+    text-align: center;
+    font-family: cursive;  
+    align-self: center;
+}
+
+
+
+.resumen {
+    width: 80%;
+    margin : 0 auto;
+    text-align:justify;
+    font-size: 24px;
+    color: black;
+}
+
+/* CSS PARA PERFIL PROFESIONAL */
+.card-profesional {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.card-perfil {
+    margin: 20px;
+    padding:10px;
+    border: 1px solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(39, 102, 120);
+    display: grid;
+    width: 30vw;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.card-perfil img {
+    
+    margin: 0 auto;
+    border: 2px solid rgb(39, 102, 120);
+    border-radius: 50%;
+}
+
+.card-perfil h4, .card-perfil h6 {
+    margin: 0 auto;
+    
+}
+
+.cv {
+    display: grid;
+    margin: 20px;
+    width : 50vw;
+    padding:10px;
+    border: 1px solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(39, 102, 120);
+    
+}
+
+/* CSS PARA LOS PROYECTOS WEBS */
+
+.principal {
+    display:grid;
+    margin:20px;
+}
+
+.proyectos-web {
+    display: grid;
+    width: 80%;
+    justify-content:center;
+    justify-self: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 300px));
+    
+}
+
+.proyecto {
+    padding:10px;
+    border: 1px solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(39, 102, 120);
+    
+}
+
+.titulo-proyecto {
+    text-align: center;
+    border-radius: 10px;
+    margin: 0;
+    padding: 5px;
+    color: rgb(22, 135, 167);
+    background-color: rgb(211, 224, 234);
+}
+
+.tecnologias-usadas {
+    padding:10px 0px 0px 10px;
+    display:content;
+    align-content: center;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+}
+
+/* CSS APLICADO AL FOOTER */
+
+.social-networks {
+    
+    width: 90vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes-sociales img{
+    width: 60px;
+    margin: 20px;
+}
+
+
+
+
+/* CSS PARA EL FOOTER */
+
+
+/* CSS PARA DISEÑO RESPOSIVO PARA NAVBAR*/
+@media screen and (max-width:700px){
+    .menu-toggle {
+        display: block;
+    }
+    #menu {
+        background-color:rgba(22, 136, 167, 0.384);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100vw;
+        height: 0;
+        border: 1px solid rgb(211, 224, 234);
+        overflow: hidden;
+        transition: .3s ease-out;
+    }
+    #menu ul li {
+        display: block;
+        text-align: center;
+
+    }
+
+    #menu ul li a {
+        
+        color: rgb(211, 224, 234);
+        font-size: 20px;
+        border-bottom: 1px solid rgb(39, 102, 120);
+        width : 100%;
+    
+    }
+    #menu ul li a:hover {
+        color: rgb(211, 224, 234);
+        background-color: rgb(39, 102, 120);
+    }
+
+    /* CSS RESPONSIVO PARA EL HEAD HEADER */
+
+    h1 {
+        font-size:24px;
+    }
+    .foto-yo img {
+        margin-top:-40px;
+        width: 100px;
+    }
+    .resumen {
+        font-size:16px;
+    }
+    .contenedor1 {
+        display: block;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .contenedor1 ul li {
+        text-align: center;
+    }
+    
+}
